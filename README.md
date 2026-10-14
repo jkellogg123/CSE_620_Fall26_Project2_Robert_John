@@ -13,3 +13,10 @@ so we'll need an environment for that.
 conda create -n cse620 python=3.10
 conda activate cse620
 pip install -r requirements.txt
+```
+
+## Usage
+Modify the main() function in main.py and run
+```bash
+python main.py
+```
