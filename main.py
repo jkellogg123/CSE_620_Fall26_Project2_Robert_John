@@ -242,13 +242,13 @@ def table_plots():
 
 
 def main():
-    # seeds = range(2000, 2101, 4)
-    # for seed in seeds:
-    #     experiment(seed=seed)
-
-    # test_from_class()
+    seeds = range(2000, 2101, 4)
+    for seed in seeds:
+        experiment(seed=seed)
 
     table_plots()
+
+    test_from_class()
 
 if __name__ == "__main__":
     main()
